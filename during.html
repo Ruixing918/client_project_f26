@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/UMSI_signature_vertical_informal_solidblue.jpg" type="image/jpeg">
+    <link rel="icon" href="images/umsi_signature_vertical_informal_solidblue.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="html5reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>During Your Experience | UMSI</title>
 </head>
 <body>
-    <a href="#main">Skip to main content</a>
+    <!-- Page structure adapted from the SI 539 Client Project Starter Code. -->
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-    <header>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg"
+    <header class="site-header">
+        <img src="images/umsi_signature_vertical_informal_solidblue.jpg"
              alt="University of Michigan School of Information"
              width="400" height="400">
-        <nav aria-label="Primary navigation">
+        <nav class="primary-nav" aria-label="Primary navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="prep.html">Preparing for Your Experience</a></li>
@@ -31,7 +34,7 @@
             <p>The middle of an engaged learning project is where real growth happens and where real challenges surface. Requirements shift, team dynamics evolve, partners face unexpected constraints, and research may produce surprising results.</p>
             <p>Developing resilience, adaptability, and ethical judgment is part of the work. When you treat friction as information instead of failure, your team can revisit assumptions, communicate openly, and make better decisions with the people affected by the project.</p>
             <figure>
-                <img src="images/UMSI_ASBChineseAmericanMuseumChicago_2026_04.png"
+                <img src="images/umsi_asbchineseamericanmuseumchicago_2026_04.png"
                      alt="Three UMSI students stand beside bookshelves at the Chinese American Museum of Chicago"
                      width="800" height="532">
                 <figcaption>UMSI students work with the Chinese American Museum of Chicago during an Alternative Spring Break project. Source: <a href="https://digitalassets.umich.edu/portals/djppo6wi/SI539AssetPortal">UMSI Digital Asset Portal</a>. Photo credit: Jeffrey M Smith, School of Information, University of Michigan.</figcaption>
@@ -62,6 +65,7 @@
 
         <section aria-labelledby="challenge-heading">
             <h2 id="challenge-heading">Respond to Common Project Challenges</h2>
+            <div class="table-scroll" role="region" aria-label="Common project challenges table; scroll horizontally" tabindex="0">
             <table>
                 <caption>Questions and actions for common challenges during an engaged learning project</caption>
                 <thead>
@@ -99,11 +103,13 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </section>
 
         <section aria-labelledby="resources-heading">
             <h2 id="resources-heading">Featured Project Resources</h2>
             <p>These course-provided tools support observation, communication, feedback, and workflow tracking. Ask your instructor or project lead where to access the current course copy.</p>
+            <div class="table-scroll" role="region" aria-label="Featured project resources table; scroll horizontally" tabindex="0">
             <table>
                 <caption>Resources recommended in the ELO Content Document</caption>
                 <thead>
@@ -151,6 +157,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </section>
 
         <section aria-labelledby="ethics-heading">
@@ -193,8 +200,14 @@
         <p>&copy; 2026 Regents of the University of Michigan</p>
     </footer>
 
-    <!-- Content adapted from the SI 539 course ELO Content Document and starter code. -->
-    <!-- Photographs downloaded from the UMSI Digital Asset Portal for this SI 539 course project. -->
-    <!-- Additional copy drafted with OpenAI Codex (GPT-5), September 20, 2026, and edited for this SI 539 client project. -->
+    
+    
+    
 </body>
 </html>
+
+
+
+
+
+
