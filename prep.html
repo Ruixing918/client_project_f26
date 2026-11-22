@@ -6,117 +6,119 @@
     <link rel="icon" href="images/umsi_signature_vertical_informal_solidblue.jpg" type="image/jpeg">
     <link rel="stylesheet" href="html5reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
     <title>Preparing for Your Experience | UMSI</title>
 </head>
 <body>
-    <!-- Page structure adapted from the SI 539 Client Project Starter Code. -->
     <a class="skip-link" href="#main">Skip to main content</a>
-
     <header class="site-header">
-        <img src="images/umsi_signature_vertical_informal_solidblue.jpg"
-             alt="University of Michigan School of Information"
-             width="400" height="400">
-        <nav class="primary-nav" aria-label="Primary navigation">
-            <ul>
+        <div class="header-inner">
+            <a class="site-brand" href="index.html">
+                <img src="images/umsi_signature_vertical_informal_solidblue.jpg" alt="University of Michigan School of Information" width="400" height="400">
+                <span>Engaged Learning Office<span class="brand-subtitle">Student resources</span></span>
+            </a>
+            <nav class="primary-nav" aria-label="Primary navigation">
+                <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="prep.html" aria-current="page">Preparing for Your Experience</a></li>
-                <li><a href="starting.html">Starting Your Experience</a></li>
-                <li><a href="during.html">During Your Experience</a></li>
-            </ul>
-        </nav>
-        <h1>Preparing for Your Experience</h1>
-        <p>Set a strong foundation by understanding the context, examining your assumptions, and evaluating your team's readiness before project work begins.</p>
+                <li><a href="prep.html" aria-current="page">Preparing</a></li>
+                <li><a href="starting.html">Starting</a></li>
+                <li><a href="during.html">During</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <main id="main">
-        <section aria-labelledby="launch-heading">
-            <h2 id="launch-heading">Launch Your Engaged Learning Journey</h2>
-            <p>Transform your academic foundation into real-world impact. Thoughtful preparation helps you identify what you hope to learn, understand who may be affected by the work, and approach a partner's goals with curiosity and respect.</p>
+    <main id="main" tabindex="-1">
+        <section class="page-intro" aria-labelledby="page-title">
+            <div class="intro-copy">
+                <p class="eyebrow">Before you begin</p>
+                <h1 id="page-title">Preparing for your experience</h1>
+                <p class="intro-text">Start by listening. Learn about the partner and community before deciding what your project should do.</p>
+                <div class="intro-links"><a class="button-link" href="#resources">Find resources</a><a href="#checklist">Use your checklist</a></div>
+            </div>
             <figure>
-                <img src="images/umsi_mastersorientation_081825_06.png"
-                     alt="UMSI students participate in icebreaker activities in a large classroom"
-                     width="800" height="532">
-                <figcaption>Students begin building connections during UMSI orientation. Source: <a href="https://digitalassets.umich.edu/portals/djppo6wi/SI539AssetPortal">UMSI Digital Asset Portal</a>. Photo credit: Jeffrey M Smith, School of Information, University of Michigan.</figcaption>
+                <img src="images/umsi_mastersorientation_081825_06.jpg" alt="UMSI students participate in icebreaker activities in a large classroom" width="1200" height="798" fetchpriority="high">
+                <figcaption>Building connections at UMSI orientation. Photo: Jeffrey M Smith / UMSI. <a href="https://digitalassets.umich.edu/portals/djppo6wi/SI539AssetPortal">UMSI Digital Asset Portal</a>.</figcaption>
             </figure>
         </section>
-
-        <section aria-labelledby="before-heading">
-            <h2 id="before-heading">Why the Work Starts Before the Project</h2>
-            <p>Engaged learning at UMSI is different from a traditional classroom assignment. You are entering a complex, unscripted environment where technical decisions intersect with human lives, organizational cultures, and real community needs.</p>
-            <p>The first phase is not about jumping immediately into execution. It is about building the foundation for ethical, sustainable engagement. Reflecting on your positionality, reviewing your team's capacity, and listening carefully to a partner's goals can prevent misaligned expectations and unintended harm.</p>
-            <p>Your role is not to enter an organization or community as an outside expert who will fix a problem. Your role is to listen, ask questions, contribute your developing expertise, and work alongside people who understand their own organization and community.</p>
-        </section>
-
-        <section aria-labelledby="goals-heading">
-            <h2 id="goals-heading">Preparation Goals</h2>
-            <ul>
-                <li><strong>Develop social and community awareness:</strong> Examine your identity, positionality, assumptions, and privileges. Learn about the community's history and consider how power may affect participation and decision-making.</li>
-                <li><strong>Understand expectations:</strong> Review program requirements, project commitments, leadership responsibilities, deadlines, and expected outcomes.</li>
-                <li><strong>Assess team readiness:</strong> Identify each team member's skills, interests, availability, responsibilities, and learning goals. Determine where the team needs additional knowledge or support.</li>
-                <li><strong>Begin project scoping:</strong> Learn about the organization's needs, intended users, constraints, and desired outcomes before committing to a solution.</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="questions-heading">
-            <h2 id="questions-heading">Questions to Consider</h2>
-            <ul>
-                <li>What do I hope to learn from this experience?</li>
-                <li>Who will be affected by the project and its outcomes?</li>
-                <li>What assumptions am I making about the partner, community, or project?</li>
-                <li>What knowledge and skills does my team already have?</li>
-                <li>What knowledge, lived experience, or perspective is missing from our team?</li>
-                <li>How will the partner participate in project decisions?</li>
-                <li>What would a mutually beneficial outcome look like?</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="process-heading">
-            <h2 id="process-heading">Recommended Preparation Process</h2>
-            <ol>
-                <li><strong>Reflect on your position.</strong> Identify the experiences, identities, assumptions, and areas of privilege that may shape your approach.</li>
-                <li><strong>Learn about the context.</strong> Research the organization, community, project history, affected stakeholders, and broader social conditions.</li>
-                <li><strong>Set learning goals.</strong> Record the technical, professional, interpersonal, and ethical skills you want to develop.</li>
-                <li><strong>Review team capacity.</strong> Compare the team's skills and availability with the likely needs of the project.</li>
-                <li><strong>Identify open questions.</strong> Write down what your team needs to learn from the partner before confirming scope, methods, or deliverables.</li>
-                <li><strong>Plan how you will listen.</strong> Decide how the team will document partner feedback, confirm shared understanding, and make decisions transparently.</li>
-            </ol>
-        </section>
-
-        <section aria-labelledby="resources-heading">
-            <h2 id="resources-heading">Featured Preparation Resources</h2>
-            <ul>
-                <li><a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot/">Social Identity Snapshot</a> - Reflect on self-awareness and positionality before entering community contexts.</li>
-                <li><a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn">“Check Yourself” Community Engagement Checklist</a> - Audit personal assumptions and ethical readiness.</li>
-                <li><a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing">IAP2 Spectrum of Public Participation</a> - Understand levels of community involvement and decision-making power.</li>
-                <li><a href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link">Project Scoping Handout and Terms</a> - Translate partner needs into realistic project goals.</li>
-                <li><a href="https://docs.google.com/document/d/1AexsV_JeSd0kRUBbcifZpfBu6y6Zi8Y0iJScp1I3gkM/edit?usp=drive_link">Student Organization Officer Guide</a> - Review roles and commitments for student organization leaders.</li>
-                <li><a href="https://docs.google.com/document/u/0/d/1uwOOS0TrXWzcSShj8DUFpckWo0t1UNu_Q7WVbZnLhX0/edit">Project Manager Guide</a> - Clarify expectations for student project leads.</li>
-                <li><a href="https://docs.google.com/document/d/1U4lCNGyWKJ3C2i_VgFqAR45Z4zF1FehuthuqT-M2wdI/edit?usp=drive_link">Project Manager Commitment Form</a> - Document responsibilities for student leads.</li>
-                <li><a href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link">Project Management Worksheet</a> - Clarify objectives, roles, timelines, and what can be shared with the client.</li>
-            </ul>
-        </section>
-
-        <aside aria-labelledby="next-heading">
-            <h2 id="next-heading">Ready to Contact Your Partner?</h2>
-            <p>Once your team has completed its preparation, move to the next stage to plan professional outreach, a productive kickoff meeting, and shared working agreements.</p>
-            <p><a href="starting.html">Continue to Starting Your Experience</a></p>
-        </aside>
+        <div class="page-layout">
+            <div class="page-content">
+                <nav class="section-nav" aria-label="On this page"><a href="#prepare">Preparation steps</a><a href="#questions">Questions to ask</a><a href="#resources">Resources</a></nav>
+                <section id="prepare" aria-labelledby="goals-heading">
+                    <h2 id="goals-heading">Get ready before you commit</h2>
+                    <p>You bring useful skills, but the partner brings knowledge of their own community. Begin with questions rather than a proposed solution.</p>
+                    <ol class="steps">
+                        <li><strong>Understand the context.</strong> Read about the organization, the people it serves, and any earlier work on the project.</li>
+                        <li><strong>Check your assumptions.</strong> Discuss how your identity, experiences, and privileges might shape what you notice or overlook.</li>
+                        <li><strong>Set learning goals.</strong> Name the technical, professional, and interpersonal skills you want to develop.</li>
+                        <li><strong>Review team capacity.</strong> Compare skills and availability with program expectations before agreeing to deliverables.</li>
+                    </ol>
+                </section>
+                <section id="questions" aria-labelledby="questions-heading">
+                    <h2 id="questions-heading">Bring these questions to the team</h2>
+                    <ul>
+                        <li>Who will use or be affected by this work?</li>
+                        <li>Whose knowledge or perspective is missing from our team?</li>
+                        <li>How will the partner take part in decisions?</li>
+                        <li>What would a useful, realistic outcome look like for everyone?</li>
+                    </ul>
+                </section>
+                <section id="resources" class="resources" aria-labelledby="resources-heading">
+                    <h2 id="resources-heading">Preparation resources</h2>
+                    <p>Choose a tool for the task in front of you. Some documents may require your U-M account.</p>
+                    <ul class="resource-list">
+                        <li><a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot/">Social Identity Snapshot</a> - Reflect on self-awareness and positionality before entering community contexts.</li>
+                        <li><a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn">“Check Yourself” Community Engagement Checklist</a> - Audit personal assumptions and ethical readiness.</li>
+                        <li><a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing">IAP2 Spectrum of Public Participation</a> - Understand levels of community involvement and decision-making power.</li>
+                        <li><a href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link">Project Scoping Handout and Terms</a> - Translate partner needs into realistic project goals.</li>
+                        <li><a href="https://docs.google.com/document/d/1AexsV_JeSd0kRUBbcifZpfBu6y6Zi8Y0iJScp1I3gkM/edit?usp=drive_link">Student Organization Officer Guide</a> - Review roles and commitments for student organization leaders.</li>
+                        <li><a href="https://docs.google.com/document/u/0/d/1uwOOS0TrXWzcSShj8DUFpckWo0t1UNu_Q7WVbZnLhX0/edit">Project Manager Guide</a> - Clarify expectations for student project leads.</li>
+                        <li><a href="https://docs.google.com/document/d/1U4lCNGyWKJ3C2i_VgFqAR45Z4zF1FehuthuqT-M2wdI/edit?usp=drive_link">Project Manager Commitment Form</a> - Document responsibilities for student leads.</li>
+                        <li><a href="https://docs.google.com/document/d/1twc-7TYWmb_PNrOBiDI1NuJqJAuhluTICr22GRd_NLc/edit?usp=drive_link">Project Management Worksheet</a> - Clarify objectives, roles, timelines, and what can be shared with the client.</li>
+                    </ul>
+                </section>
+                <aside class="next-step" aria-labelledby="next-heading">
+                    <p class="eyebrow">Next stage</p>
+                    <h2 id="next-heading">Ready to make contact?</h2>
+                    <p>Take your questions into a first conversation with the partner.</p>
+                    <a href="starting.html">Continue to Starting</a>
+                </aside>
+            </div>
+            <aside class="page-sidebar" aria-labelledby="checklist-heading">
+                <section id="checklist" class="checklist" data-stage="preparation" aria-labelledby="checklist-heading">
+                    <h2 id="checklist-heading">Your preparation checklist</h2>
+                    <p class="checklist-help">Keep track of your next steps.</p>
+                    <p class="checklist-count" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+                    <progress value="0" max="5" aria-label="Completed preparation tasks" hidden></progress>
+                    <fieldset>
+                        <legend class="visually-hidden">Preparation tasks</legend>
+                    <label for="task-1"><input id="task-1" type="checkbox" value="context"> <span>Learn about the partner and community</span></label>
+                    <label for="task-2"><input id="task-2" type="checkbox" value="assumptions"> <span>Discuss your assumptions</span></label>
+                    <label for="task-3"><input id="task-3" type="checkbox" value="goals"> <span>Set personal learning goals</span></label>
+                    <label for="task-4"><input id="task-4" type="checkbox" value="capacity"> <span>Review team skills and availability</span></label>
+                    <label for="task-5"><input id="task-5" type="checkbox" value="questions"> <span>Write questions for the partner</span></label>
+                    </fieldset>
+                    <p class="save-note" hidden>Saved in this browser.</p>
+                    <button type="button" class="reset-checklist" hidden>Reset checklist</button>
+                    <noscript><p>JavaScript is off. You can check tasks, but progress will not be saved.</p></noscript>
+                </section>
+                <div class="sidebar-contact">
+                    <h2>Need a hand?</h2>
+                    <p>Ask your instructor or contact <a href="mailto:umsi.engagement@umich.edu">the Engaged Learning Office</a>.</p>
+                </div>
+            </aside>
+        </div>
     </main>
-
-    <footer>
-        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
-        <address>
-            Email: <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
-        </address>
-        <p>&copy; 2026 Regents of the University of Michigan</p>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <p>University of Michigan School of Information</p>
+                <p><a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
+            </div>
+            <div>
+                <address><a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a></address>
+                <p>&copy; <span class="current-year">2026</span> Regents of the University of Michigan</p>
+            </div>
+        </div>
     </footer>
-
-    
-    
-    
 </body>
 </html>
-
-
-
-

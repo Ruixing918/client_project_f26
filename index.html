@@ -6,126 +6,102 @@
     <link rel="icon" href="images/umsi_signature_vertical_informal_solidblue.jpg" type="image/jpeg">
     <link rel="stylesheet" href="html5reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
     <title>Engaged Learning Resources | UMSI</title>
 </head>
 <body>
-    <!-- Page structure adapted from the SI 539 Client Project Starter Code. -->
     <a class="skip-link" href="#main">Skip to main content</a>
-
     <header class="site-header">
-        <img src="images/umsi_signature_vertical_informal_solidblue.jpg"
-             alt="University of Michigan School of Information"
-             width="400" height="400">
-        <nav class="primary-nav" aria-label="Primary navigation">
-            <ul>
+        <div class="header-inner">
+            <a class="site-brand" href="index.html">
+                <img src="images/umsi_signature_vertical_informal_solidblue.jpg" alt="University of Michigan School of Information" width="400" height="400">
+                <span>Engaged Learning Office<span class="brand-subtitle">Student resources</span></span>
+            </a>
+            <nav class="primary-nav" aria-label="Primary navigation">
+                <ul>
                 <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="prep.html">Preparing for Your Experience</a></li>
-                <li><a href="starting.html">Starting Your Experience</a></li>
-                <li><a href="during.html">During Your Experience</a></li>
-            </ul>
-        </nav>
-        <h1>Welcome to the UMSI Engaged Learning Resource Portal</h1>
-        <p>Build skills. Work with partners. Make an impact.</p>
+                <li><a href="prep.html">Preparing</a></li>
+                <li><a href="starting.html">Starting</a></li>
+                <li><a href="during.html">During</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <main id="main">
-        <section aria-labelledby="welcome-heading">
-            <h2 id="welcome-heading">Put Your Learning into Practice</h2>
-            <p>The UMSI Engaged Learning Office (ELO) connects students with opportunities to apply classroom knowledge to real challenges. Use this portal to prepare for your experience, launch a strong partnership, manage active project work, and reflect on what you learn.</p>
+    <main id="main" tabindex="-1">
+        <section class="home-intro" aria-labelledby="page-title">
+            <div class="intro-copy">
+                <p class="eyebrow">UMSI student resource portal</p>
+                <h1 id="page-title">Engaged learning<br>at UMSI</h1>
+                <p class="intro-text">Working with a community or client partner? Find practical guidance for your next project step.</p>
+                <a class="button-link" href="#stages">Find your project stage</a>
+            </div>
             <figure>
-                <img src="images/umsi_campusfall_umsibackpack_02.jpg"
-                     alt="A student wearing a UMSI backpack walks across campus among other students"
-                     width="1200" height="800">
-                <figcaption>Engaged learning connects UMSI students with communities, organizations, and real-world challenges.</figcaption>
+                <img src="images/umsi_campusfall_umsibackpack_02.jpg" alt="A student wearing a UMSI backpack walks across campus among other students" width="1200" height="801" fetchpriority="high">
+                <figcaption>From the classroom to work with communities and organizations.</figcaption>
             </figure>
         </section>
 
-        <section aria-labelledby="why-heading">
-            <h2 id="why-heading">Why Use This Resource?</h2>
-            <p>Real-world projects rarely follow a perfect plan. This site helps you find the right guidance when you need it, so you can spend less time searching for materials and more time learning, collaborating, and moving your project forward.</p>
-            <ul>
-                <li><strong>Follow a clear process:</strong> Move from preparation and project launch through active work, reflection, and responsible closeout.</li>
-                <li><strong>Find practical support:</strong> Access relevant templates, checklists, examples, and how-to guidance for common project needs.</li>
-                <li><strong>Build professional skills:</strong> Strengthen your communication, teamwork, project management, and ethical decision-making.</li>
-                <li><strong>Turn experience into evidence:</strong> Identify what you learned and communicate your impact in resumes, portfolios, and interviews.</li>
-            </ul>
+        <section id="stages" class="stages" aria-labelledby="stages-heading">
+            <h2 id="stages-heading">Where are you in your project?</h2>
+            <div class="stage-grid">
+                <article>
+                    <p class="eyebrow">Before you begin</p>
+                    <h3><a href="prep.html">Preparing</a></h3>
+                    <p>Learn about your partner, reflect on assumptions, and set your team's goals.</p>
+                    <a class="stage-link" href="prep.html">Explore preparation resources</a>
+                </article>
+                <article>
+                    <p class="eyebrow">At the kickoff</p>
+                    <h3><a href="starting.html">Starting</a></h3>
+                    <p>Make first contact, plan a useful meeting, and agree on how to work together.</p>
+                    <a class="stage-link" href="starting.html">Plan your project start</a>
+                </article>
+                <article>
+                    <p class="eyebrow">While you work</p>
+                    <h3><a href="during.html">During</a></h3>
+                    <p>Keep work moving, ask for feedback, and respond when plans change.</p>
+                    <a class="stage-link" href="during.html">Find active project resources</a>
+                </article>
+            </div>
         </section>
 
-        <section aria-labelledby="stages-heading">
-            <h2 id="stages-heading">Guidance for Every Stage</h2>
-            <p>Start with the stage that best matches the work you are doing now. You can return to an earlier stage whenever new questions, partners, or constraints emerge.</p>
-
-            <article>
-                <h3>Prepare for the Experience</h3>
-                <p>Set learning goals, understand the project context, examine your assumptions, and assess your team's readiness before committing to a solution.</p>
-                <a href="prep.html">Explore preparation guidance</a>
-            </article>
-
-            <article>
-                <h3>Start the Experience</h3>
-                <p>Establish relationships, define roles, set expectations, plan your first meeting, and agree on communication practices with your team and partner.</p>
-                <a href="starting.html">Plan a strong project start</a>
-            </article>
-
-            <article>
-                <h3>Navigate the Experience</h3>
-                <p>Manage milestones, conduct ethical fieldwork, communicate progress, respond to feedback, and work through unexpected challenges.</p>
-                <a href="during.html">Find active project resources</a>
-            </article>
-        </section>
-
-        <section aria-labelledby="programs-heading">
-            <h2 id="programs-heading">Featured Engaged Learning Programs</h2>
-            <p>Explore ways to collaborate with organizations, communities, student teams, and partners in Michigan and beyond.</p>
-            <ul>
-                <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12810">AI Clinic Project Experience</a> - Work with a team on an applied artificial intelligence project for a partner organization.</li>
-                <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12556">A2 Data Dive</a> - Use information and data skills to help address challenges identified by community organizations.</li>
-                <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=11297">Alternative Fall Break</a> - Participate in a community-engaged learning experience during the University of Michigan's fall break.</li>
-                <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=10621">Alternative Spring Break</a> - Collaborate with communities and nonprofit organizations on information-related projects during spring break.</li>
-                <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12294">Student Organization Engaged Learning Leaders</a> - Develop leadership and project-management skills while supporting engaged learning through a UMSI student organization.</li>
-                <li><a href="https://www.si.umich.edu/student-life/study-abroad">Study Abroad</a> - Build intercultural awareness and apply your learning in an international setting.</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="video-heading">
-            <h2 id="video-heading">See Engaged Learning in Action</h2>
-            <p>Watch this introduction to learn how UMSI students connect information skills with real community and organizational needs.</p>
-            <iframe width="560" height="315"
-                    src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS"
-                    title="Introduction to engaged learning at UMSI"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen></iframe>
-            
-        </section>
-
-        <section aria-labelledby="about-heading">
-            <h2 id="about-heading">About the Engaged Learning Office</h2>
-            <p>The Engaged Learning Office works with partners across industries and sectors, from technology companies to grassroots nonprofits and cultural heritage institutions, to provide project-based opportunities for UMSI students.</p>
-            <p>Its mission is to facilitate transformational engaged learning experiences and enable innovative, sustainable, and mutually beneficial information solutions for local and global communities.</p>
-        </section>
-
-        <aside aria-labelledby="connect-heading">
-            <h2 id="connect-heading">Stay Connected with ELO</h2>
-            <p>Get updates about ELO programs, workshops, events, and opportunities through the weekly newsletter.</p>
-            <p><a href="https://umsi.info/elo-newsletter">Sign up for the ELO newsletter</a></p>
-            <p>Questions? Email <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>.</p>
-        </aside>
+        <div class="home-columns">
+            <section aria-labelledby="programs-heading">
+                <h2 id="programs-heading">Find an experience</h2>
+                <p>Explore programs that connect information skills with work beyond the classroom.</p>
+                <ul class="program-list">
+                    <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12810">AI Clinic Project Experience</a><span>Applied AI projects with partner organizations.</span></li>
+                    <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12556">A2 Data Dive</a><span>Data work shaped by community needs.</span></li>
+                    <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=11297">Alternative Fall Break</a><span>A community project during fall break.</span></li>
+                    <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=10621">Alternative Spring Break</a><span>Information projects with nonprofit partners.</span></li>
+                    <li><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12294">Student Organization Engaged Learning Leaders</a><span>Leadership through UMSI student organizations.</span></li>
+                    <li><a href="https://www.si.umich.edu/student-life/study-abroad">Study Abroad</a><span>Learning in an international setting.</span></li>
+                </ul>
+            </section>
+            <section class="about-elo" aria-labelledby="about-heading">
+                <h2 id="about-heading">Learning with a partner</h2>
+                <p>The Engaged Learning Office connects UMSI students with companies, nonprofits, and cultural institutions on local and global projects.</p>
+                <p>Use this portal to prepare, build a working relationship, and reflect as your project develops.</p>
+                <p><a href="https://www.youtube.com/watch?v=81ZO9RfIJEQ">Watch: engaged learning at UMSI (YouTube)</a></p>
+                <div class="office-note">
+                    <h3>Keep in touch</h3>
+                    <p>Get program news, workshops, and opportunities in the ELO newsletter.</p>
+                    <a href="https://umsi.info/elo-newsletter">Sign up for the newsletter</a>
+                </div>
+            </section>
+        </div>
     </main>
-
-    <footer>
-        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
-        <address>
-            Email: <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
-        </address>
-        <p>&copy; 2026 Regents of the University of Michigan</p>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <p>University of Michigan School of Information</p>
+                <p><a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
+            </div>
+            <div>
+                <address><a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a></address>
+                <p>&copy; <span class="current-year">2026</span> Regents of the University of Michigan</p>
+            </div>
+        </div>
     </footer>
-
-    
-    
 </body>
 </html>
-
-
-
-
